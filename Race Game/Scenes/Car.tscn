@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://car.png" type="Texture" id=1]
+[ext_resource path="res://Code/Car.gd" type="Script" id=2]
+[ext_resource path="res://Sounds/Sport Trap Rock by Infraction [No Copyright Music]  Training Day.mp3" type="AudioStream" id=3]
+[ext_resource path="res://Images/2201_w023_n001_1726b_p1_1726.jpg" type="Texture" id=4]
+
+[node name="Car" type="Sprite" groups=["car"]]
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2( 10, 10 )
+current = true
+zoom = Vector2( 10, 10 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -208, -574, -258, -453, -261, -251, -249, -227, -242, 260, -256, 282, -249, 489, -218, 567, -158, 605, 115, 612, 208, 581, 255, 529, 272, 434, 263, 315, 253, 251, 251, 72, 246, -146, 244, -220, 260, -272, 268, -432, 232, -546, 187, -589, 125, -610, -35, -622, -151, -605 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -82816.0
+margin_top = -34432.0
+margin_right = 88531.0
+margin_bottom = 38506.0
+texture = ExtResource( 4 )

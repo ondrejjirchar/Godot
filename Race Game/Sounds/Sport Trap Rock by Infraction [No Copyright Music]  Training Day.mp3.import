@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Sport Trap Rock by Infraction [No Copyright Music]  Training Day.mp3-13d5ae898fb6ff20f66178c012730ccd.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Sport Trap Rock by Infraction [No Copyright Music]  Training Day.mp3"
+dest_files=[ "res://.import/Sport Trap Rock by Infraction [No Copyright Music]  Training Day.mp3-13d5ae898fb6ff20f66178c012730ccd.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
