@@ -1,15 +1,15 @@
 # Godot
 
 ## 1. Základní koncepce hry
-Jedná se o jednoduchou 2D závodní hru ve které bude cílem dojet co nejdál a sbírat mince za které bude možné si auto vylepšit nebo koupit jiné. Bude zde více různých map s různým terénem a obtížností.
+Jedná se o jednoduchou 2D závodní hru s podledem ze shora, ve které je možné jezdit po závodní trati.
 ## 2. Level design
-Hra se bude ovládat na klávesnici tlačíky "WASD" a tlačítkem SHIFT pro zrychlení. Ve hře bude za cíl sbírat mince a kanystry s palivem. Hráč pojede a bude překonávat různe překážky, po určité vzdálenosti bude kanyst, který doplní palivo. V moment co palivo dojde, hráč pojede znovu od začátku, aby hráč dojel dál, bude muset vylepšovat svoje auto nebo koupit lepší.
+Hra se bude ovládat na klávesnici tlačíky šipkami . Ve hře bude za cíl co nejrychleji projet závodní trať,
 ## 3. Grafika
-Hra bude navržena v Godotu, bude optimalizovaná pro počítače. Objekty a prostředí bude navržené v Photoshopu.
+Hra bude navržena v Godotu, bude optimalizovaná pro počítače. Objekty a prostředí bude jsou navržené v malování a použité z interenetu ze stránek kde jsou ke stažení zdrama.
 ## 4. Zvuky
-Zvuky budou vytvořeny v Audacity a některé zvuky budu nahrávat pomocí telefonu.
+Zvuky jsou vytvořeny přes záznamník.
 ## 5. Hudba
-Hudbu nejspíše použiju z YouTube, samozřejmě NSC.
+Hudba je použita NCS z YouTube.
 ## 6. Godot
 
 ## 7. Propagace
