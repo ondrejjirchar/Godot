@@ -1,16 +1,16 @@
 extends KinematicBody2D
 
 
-var wheel_base = 70 # Distance from front to rear wheel
-var steering_angle = 15 # Amount that front wheel turns, in degrees
-var engine_power = 800 # Forward acceleration force.
-var braking_power = -450 # Braking force.
-var max_speed_reverse = 250 # Maximum speed when reversing.
-var slip_speed = 400 # Speed where traction is reduced
-var traction_fast = 0.1 # High-speed traction
-var traction_slow = 0.7 # Low-speed traction
-var friction = -0.9 # Coefficient of friction.
-var drag = -0.0015 # Coefficient of air resistance.
+var wheel_base = 70 
+var steering_angle = 15
+var engine_power = 800
+var braking_power = -450
+var max_speed_reverse = 250
+var slip_speed = 400
+var traction_fast = 0.1
+var traction_slow = 0.7
+var friction = -0.9
+var drag = -0.0015
 
 var velocity = Vector2.ZERO
 var acceleration = Vector2.ZERO
